@@ -1,0 +1,46 @@
+{
+  "name": "auth0",
+  "version": "0.1.0",
+  "homepage": "https://housethat.in/compadmin",
+  "private": true,
+  "dependencies": {
+    "@auth0/auth0-react": "^1.9.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.16",
+    "@mui/x-data-grid": "^5.17.16",
+    "@reduxjs/toolkit": "^1.9.1",
+    "axios": "^1.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.4",
+    "react-scripts": "5.0.0",
+    "react-swipeable-views": "^0.14.0",
+    "react-toastify": "^9.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
